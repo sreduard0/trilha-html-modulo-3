@@ -3,14 +3,24 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 .bar {
     background-color: #f9f9fb;
-    padding:15px;
+    padding: 15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -18,21 +28,169 @@ a { color:blue; text-decoration: none;}
     display: grid;
     gap: 3rem;
     grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Estilo para o logotipo */
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo para a barra superior */
+.bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para a barra lateral */
+.sidebar {
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para a área principal */
+.main {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.main h1 {
+    margin-bottom: 10px;
+}
+
+.main h2 {
+    margin-bottom: 5px;
+}
+
+.main p {
+    margin-bottom: 10px;
+}
+
+.main ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Estilo para a área de âncoras */
+.anchors {
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.anchors h2 {
+    margin-bottom: 10px;
+}
+
+.anchors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.anchors ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container a {
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 200px;
+}
+
 figure {
     text-align: center;
 }
